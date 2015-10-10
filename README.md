@@ -8,6 +8,7 @@ During development, have you ever found yourself copying a epoch timestamp and w
 * On Alfred, type **epoch**
 * Press ENTER to copy the parsed date
 
+![Usage](https://raw.githubusercontent.com/aakn/alfred-epoch-parser/master/screen-shot.png)
 
 ###Download
 [Download the workflow](https://github.com/aakn/alfred-epoch-parser/blob/master/workflow/epoch-parser.alfredworkflow?raw=true)
