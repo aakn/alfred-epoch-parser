@@ -7,7 +7,7 @@ query = commands.getoutput("pbpaste")
 xml_string = "<?xml version=\"1.0\"?>\n<items>\n"
 
 try:
-    date = datetime.utcfromtimestamp(query/1000).isoformat() + 'Z'
+    date = datetime.utcfromtimestamp(int(query)/1000).isoformat() + 'Z'
     date_xml = string.Template("""\t<item uid=\"${date}\" arg=\"${date}\">
                 <title>${date}</title>
                 <subtitle>Press ENTER to copy \"${date}\" to clipboard</subtitle>

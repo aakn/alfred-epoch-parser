@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FD58018C-DC39-4396-A00F-A04372220916</string>
+				<string>0A74E4CC-C3B8-48F9-BCA0-9BAF33633D28</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -33,8 +33,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>0A74E4CC-C3B8-48F9-BCA0-9BAF33633D28</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>keyword</key>
@@ -50,15 +65,15 @@
 				<key>runningsubtext</key>
 				<string>Parsing Epoch ...</string>
 				<key>script</key>
-				<string>query = "{query}"</string>
+				<string>python epoch_parser.py</string>
 				<key>subtext</key>
 				<string>Tip: Copy any Epoch Timestamp and type epoch. Press ENTER to then copy output to clipboard</string>
 				<key>title</key>
 				<string>Epoch parser</string>
 				<key>type</key>
-				<integer>3</integer>
+				<integer>0</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -67,26 +82,16 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>FD58018C-DC39-4396-A00F-A04372220916</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0A74E4CC-C3B8-48F9-BCA0-9BAF33633D28</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
 		<key>42401AA7-1F5C-4019-98C9-5A2AB1059D2A</key>
 		<dict>
 			<key>ypos</key>
